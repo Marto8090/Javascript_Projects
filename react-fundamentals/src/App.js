@@ -1,7 +1,9 @@
 import './App.css';
+import {Footer} from './Footer.js'
 
 export default function Navbar (){
   return (
+    <>
     <nav className="navbar">
       <ul>
         <li className="nav-item">
@@ -22,5 +24,7 @@ export default function Navbar (){
         </li>
       </ul>
     </nav>
+    <Footer />
+    </>
   )
 }
